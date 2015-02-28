@@ -251,7 +251,13 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so
+    $(LOCAL_PATH)/proprietary/etc/alp_cal.dat:system/etc/alp_cal.dat \
+    $(LOCAL_PATH)/proprietary/etc/param.dat:system/etc/param.dat \
+    $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
+    $(LOCAL_PATH)/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
+    $(LOCAL_PATH)/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
+    $(LOCAL_PATH)/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    $(LOCAL_PATH)/proprietary/lib/libmlmpuso:system/lib/libmplmpu.so
 
 # Thermal
 PRODUCT_COPY_FILES += \
