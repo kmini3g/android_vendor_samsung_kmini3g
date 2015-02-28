@@ -104,6 +104,11 @@ PRODUCT_COPY_FILES += \
 
 # Camera chromatix
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
+    $(LOCAL_PATH)/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
+    $(LOCAL_PATH)/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
+    $(LOCAL_PATH)/proprietary/lib/libawb_algo_front.so:system/lib/libawb_algo_front.so \
+    $(LOCAL_PATH)/proprietary/lib/libawb_algo_rear.so:system/lib/libawb_algo_rear.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_common.so:system/lib/libchromatix_s5k6a3yx_common.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
