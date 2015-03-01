@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_smart_stay.so:system/lib/libchromatix_s5k6b2yx_smart_stay.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
-    $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6g2yx_vt_hd.so:system/lib/libchromatix_s5kb23yx_vt_hd.so \
+    $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     $(LOCAL_PATH)/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
@@ -257,7 +257,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
     $(LOCAL_PATH)/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     $(LOCAL_PATH)/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    $(LOCAL_PATH)/proprietary/lib/libmlmpuso:system/lib/libmplmpu.so
+    $(LOCAL_PATH)/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so
 
 # Thermal
 PRODUCT_COPY_FILES += \
