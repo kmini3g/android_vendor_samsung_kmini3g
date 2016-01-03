@@ -213,9 +213,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
-# Perf
+# Perfd
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision
+    $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Qualcomm framework
 PRODUCT_COPY_FILES += \
@@ -257,6 +258,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/alp_cal.dat:system/etc/alp_cal.dat \
     $(LOCAL_PATH)/proprietary/etc/param.dat:system/etc/param.dat \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
+    $(LOCAL_PATH)/proprietary/lib/libhr.so:system/lib/libhr.so \
     $(LOCAL_PATH)/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
     $(LOCAL_PATH)/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     $(LOCAL_PATH)/proprietary/lib/libmllite.so:system/lib/libmllite.so \
