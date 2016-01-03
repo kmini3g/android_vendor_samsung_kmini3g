@@ -251,6 +251,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
+# ConsumerIR
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so
+    
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/alp_cal.dat:system/etc/alp_cal.dat \
