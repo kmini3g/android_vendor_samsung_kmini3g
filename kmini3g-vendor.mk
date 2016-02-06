@@ -20,7 +20,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/samsung/kmini3g/overlay
 # Apps
 PRODUCT_PACKAGES += \
     TimeService \
-    libHevcSwDecoder \
     com.qualcomm.location
 
 $(call inherit-product, vendor/samsung/kmini3g/kmini3g-vendor-blobs.mk)
