@@ -188,6 +188,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
+# Fingerprint 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    $(LOCAL_PATH)/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    $(LOCAL_PATH)/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    $(LOCAL_PATH)/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    $(LOCAL_PATH)/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    $(LOCAL_PATH)/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+    
 # Graphics firmware
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
